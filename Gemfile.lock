@@ -13,6 +13,7 @@ GEM
     public_suffix (2.0.4)
     rake (11.3.0)
     safe_yaml (1.0.4)
+    spy (0.4.5)
     webmock (2.1.0)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
@@ -22,10 +23,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  httparty
-  minitest
-  rake
-  webmock
+  httparty (= 0.14.0)
+  minitest (= 5.10.1)
+  rake (= 11.3.0)
+  spy
+  webmock (= 2.1.0)
 
 BUNDLED WITH
    1.11.2
