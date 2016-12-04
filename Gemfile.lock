@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    hashdiff (0.3.1)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    minitest (5.10.1)
+    multi_xml (0.5.5)
+    public_suffix (2.0.4)
+    rake (11.3.0)
+    safe_yaml (1.0.4)
+    webmock (2.1.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty
+  minitest
+  rake
+  webmock
+
+BUNDLED WITH
+   1.11.2
