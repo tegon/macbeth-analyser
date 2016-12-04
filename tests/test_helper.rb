@@ -1,4 +1,5 @@
 require 'minitest/autorun'
-require 'webmock'
+require 'webmock/minitest'
+require 'spy/integration'
 
 include WebMock::API
